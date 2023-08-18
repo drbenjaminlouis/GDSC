@@ -22,16 +22,15 @@ Logoipsum is a responsive sample website developed as part of the GDSC (Google D
 
 To run or modify Logoipsum on your local machine, follow these steps:
 
-1.  **Clone the Repository:** Start by cloning the Logoipsum repository to your local machine using the following command:
+ 1. **Clone the Repository:** Start by cloning the Logoipsum repository to your local machine using the following command:
+    ```bash
+    git clone https://github.com/your-username/logoipsum.git
+    ```
+2. **Navigate to the Directory:** Move into the project directory:
     
-    `git clone https://github.com/drbenjaminlouis/logoipsum.git` 
-
-    
-2.  **Navigate to the Directory:** Move into the project directory:
-    
-    
-    `cd logoipsum` 
-    
+    ```bash
+    cd logoipsum
+    ```
 3.  **Open in Browser:** Open the `index.html` file in your preferred web browser to view the website. You can do this by right-clicking the file and selecting "Open with" and choosing your browser.
     
 
