@@ -1148,9 +1148,9 @@ hr {
 
 .contact-us {
     display: flex;
-    width: 70%;
+    width: 80%;
     justify-content: center;
-    margin: 60px 15%;
+    margin: 50px auto;
     padding: 2% 0px 0px 10%;
     box-shadow: 0px 8px 16px -4px #a09f9f;
     overflow: hidden;
@@ -1159,6 +1159,7 @@ hr {
 
 .contact-left {
     width: 50%;
+    padding-left: 50px;
 }
 
 .contact-header {
@@ -1192,8 +1193,8 @@ hr {
 }
 
 .contact-social {
-    padding-top: 40%;
-    display: inline-flex;
+    padding-top: 25%;
+    display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 32px;
@@ -1957,5 +1958,77 @@ input[type="radio"]:checked+label {
         width: 80%;
     }
 
+    .contact-us{
+        width: 80%;
+        margin: 5% auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-left{
+        margin: 0px auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    .contact-right{
+        width: 80%;
+        padding-bottom: 80px;
+    }
+    .contact-header p{
+        width: 100%;
+    }
+    .contact-social{
+        display: flex;
+        justify-content: center;
+    }
+    .contact-right label{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1156px){
+    .contact-us{
+        display: flex;
+        padding-left: 0px;
+        flex-direction: column;
+    }
+    .contact-left{
+        margin: 0px auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5%;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .contact-right{
+        margin: 0px auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .contact-header p{
+        width: 100%;
+    }
+    .contact-social{
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .contact-right label{
+        width: 100%;
+        text-align: center;
+    }
 }
 
