@@ -1,8 +1,10 @@
 # Logoipsum - A Sample Web Site
 
-Logoipsum is a responsive sample website developed as part of the GDSC (Google Developer Student Clubs) Web Dev Lead assessment. The website showcases the utilization of various web technologies such as HTML, CSS, JavaScript, and Bootstrap to create an appealing and functional design.
 
 ![image](https://github.com/drbenjaminlouis/GSDC/assets/64739511/190d89f3-a371-4ff4-9857-d8a77d023f1a)
+<br>
+<br>
+Logoipsum is a responsive sample website developed as part of the GDSC (Google Developer Student Clubs) Web Dev Lead assessment. The website showcases the utilization of various web technologies such as HTML, CSS, JavaScript, and Bootstrap to create an appealing and functional design.
 
 
 ## Features
