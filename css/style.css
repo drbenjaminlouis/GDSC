@@ -1841,12 +1841,8 @@ input[type="radio"]:checked+label {
         display: flex;
         flex-direction: column;
     }
-    .portfolio-des {
-        font-size: 1rem;
-        width: 70%;
-    }
     .portfolio-item {
-        width: 70%;
+        width: 100%;
         height: auto;
         
     }
