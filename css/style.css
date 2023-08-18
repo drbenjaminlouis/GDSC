@@ -473,7 +473,7 @@ p.service-des {
     display: flex;
     padding: 100px 4%;
     flex-direction: column;
-    align-items: center;
+    
     gap: 80px;
     width: 100%;
 }
@@ -485,8 +485,10 @@ p.service-des {
     font-style: normal;
     font-weight: 700;
     line-height: 138%;
-    width: auto 326px;
+    width: 80%;
+    margin-left: 9%;
 }
+
 
 .project-container {
     display: flex;
@@ -599,6 +601,12 @@ p.service-des {
     font-weight: 700;
     line-height: 138%;
     margin-bottom: 80px;
+}
+.faq-inner{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0px 5%;
 }
 
 .questions {
@@ -1864,8 +1872,9 @@ input[type="radio"]:checked+label {
     }
 
     .about-us {
-        width: 100%;
+        width: 92%;
         margin: 0px 4%;
+        padding: 30px ;
         flex-direction: column-reverse;
         gap: 0px;
         align-items: center;
@@ -2001,6 +2010,16 @@ input[type="radio"]:checked+label {
         width: 100%;
         display: flex;
         flex-direction: row;
+    }
+    .projects-head {
+        color: #000;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 138%;
+        width: 80%;
+        text-align: center;    
     }
 }
 
