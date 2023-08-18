@@ -1738,9 +1738,118 @@ input[type="radio"]:checked+label {
         flex-direction: row;
     }
 
+    .portfolio-top-section{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .portfolio-top-section h4 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    .portfolio-top-section p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .portfolio-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        width: 96%;
+        margin: 20px 1%;
+    }
+    
+    .portfolio-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    
+    .portfolio-head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .portfolio-des {
+        font-size: 1rem;
+        width: 80%;
+    }
+    
+    .portfolio-head h4 {
+        font-size: 3rem;
+        width: 100%;
+    }
+    
+    .portfolio-head p {
+        font-size: 1.8rem;
+        width: 80%;
+    }
+    
+    .portfolio-items {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .portfolio-item {
+        width: 46%;
+        height: auto;
+        
+    }
+    .p-item-details{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .p-name {
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .p-des {
+        font-size: .8rem;
+        text-align: justify;
+        width: 100%;
+        
+    }
+    
+    .read-more p {
+        width: 100%;
+    }
+    
+    .see-all-btn button {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 700px) {
+    .cta-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-des {
+        font-size: 1rem;
+        width: 70%;
+    }
+    .portfolio-item {
+        width: 70%;
+        height: auto;
+        
+    }
     .project-item {
         width: 80%;
     }
@@ -1847,3 +1956,4 @@ input[type="radio"]:checked+label {
     }
 
 }
+
