@@ -1337,41 +1337,18 @@ input[type="radio"]:checked+label {
 
 @media (max-width: 1438px) {
 
-    .right-section {
-        width: 100%;
-        height: auto;
-        padding-left: 0%;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .right-section img {
-        width: 100%;
-    }
-
-    .main-container {
-        width: 100%;
-        height: auto;
-        padding: 10% 1% 10px 5%;
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .left-section {
-        width: 100%;
-
-    }
+    
 
     h1.left-head {
         width: 100%;
         font-size: 3rem;
-        text-align: center;
+        text-align: left;
     }
 
     .left-section p {
         width: 100%;
         font-size: 1rem;
-        text-align: center;
+        text-align: left;
     }
 
     .left-btns {
@@ -1380,12 +1357,12 @@ input[type="radio"]:checked+label {
     }
 
     button.start-project {
-        width: 100%;
+        width: 50%;
         font-size: 1rem;
     }
 
     button.learn-more {
-        width: 100%;
+        width: 50%;
         font-size: 1rem;
     }
 
@@ -2024,6 +2001,58 @@ input[type="radio"]:checked+label {
 }
 
 @media (max-width: 1156px){
+    .right-section {
+        width: 50%;
+        height: auto;
+        padding-left: 0%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-section img {
+        width: 100%;
+    }
+
+    .main-container {
+        width: 100%;
+        height: auto;
+        padding: 10% 1% 10px 5%;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .left-section {
+        width: 100%;
+
+    }
+
+    h1.left-head {
+        width: 100%;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .left-section p {
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .left-btns {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    button.start-project {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    button.learn-more {
+        width: 100%;
+        font-size: 1rem;
+    }
+
     .contact-us{
         display: flex;
         padding-left: 0px;
