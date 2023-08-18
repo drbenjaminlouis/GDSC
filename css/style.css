@@ -1740,6 +1740,7 @@ input[type="radio"]:checked+label {
 
     .portfolio-top-section{
         margin: 0px;
+        height: ;
         display: flex;
         justify-content: center;
     }
