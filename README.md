@@ -24,7 +24,7 @@ To run or modify Logoipsum on your local machine, follow these steps:
 
 1.  **Clone the Repository:** Start by cloning the Logoipsum repository to your local machine using the following command:
     
-    `git clone https://github.com/your-username/logoipsum.git` 
+    `git clone https://github.com/drbenjaminlouis/logoipsum.git` 
 
     
 2.  **Navigate to the Directory:** Move into the project directory:
